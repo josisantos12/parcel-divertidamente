@@ -38,21 +38,21 @@ header{
     }
    
 }}
-video{
-    margin-left: 25%;
-    margin-top: 5%;
-    width: 55%;
-}
 
 .event {
     padding: 80px 0;
     background-color: beige;
-
     
+    video{
+        margin-left: 25%;
+        margin-top: 5%;
+        width: 55%;
+    }
 
     &--image-left {
         .container {
             flex-direction: row-reverse;
+
         }
     }
     .container {
